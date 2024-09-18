@@ -17,6 +17,9 @@
             if(isNaN(e1) || isNaN(e2)){
             return alert("数字をいれてください")
             }
+            if(op === 'mod' && e2 === '0'){ 
+                return alert("0で割ることはできません")
+            }
             // if (isNaN(e1)) {
             //     return alert("数字をいれてください")
             // }
